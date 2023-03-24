@@ -1,0 +1,52 @@
+/* 홈페이지 영역 */
+/* vw기준값: 1425px, vh기준값: 768px */
+.homepage {
+    color: #fff;
+    padding-bottom: 70px;
+    padding-bottom: 9.114vh;
+}
+.main_img .first {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 81.25vh;
+    height: 81.25vh;
+    /* 포지션 위치기준값 */
+    position: relative;
+}
+.main_img .main_img_text {
+    /* 포지션 */
+    position: absolute;
+    left: 7.01vw;
+    top: 19.53vh;
+    z-index: 100;
+    padding-top: 11.458vh;
+}
+.main_img h3>img {
+    width: 50%;
+}
+.main_img li:first-child h4 {
+    visibility: hidden;
+}
+.main_img li:first-child h5 {
+    font-size: 3.51vh;
+    font-weight: 400;
+    color: #f5f5f7;
+    line-height: 4.036vh;
+}
+
+/* 두번째 li */
+.main_img li:last-child {
+    text-align: center;
+    margin-top: 10.41vh;
+}
+.main_img li:last-child h3 {
+    color: #000;
+    font-size: 5.729vh;
+    font-weight: 600;
+    line-height: 6.25vh;
+    margin-bottom: 6.25vh;
+}
+.main_img li:last-child h4>img {
+    width: 44.561vw;
+}
+

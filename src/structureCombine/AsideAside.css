@@ -1,0 +1,63 @@
+/* aside 영역 */
+.aside {
+    background-color: #f5f5f7;
+    padding: 25px 0;
+    /* (768px) */
+    padding: 3.255vh 0;
+}
+.aside_content {
+    width: 980px;
+    max-width: 68,77vw;
+    margin: 0 auto;
+    font-size: 17px;
+    font-size: 2.21vh;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 25%;
+}
+.aside_content div {
+    text-align: center;
+}
+.aside_content div figure {
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    margin: 4px auto 10px;
+}
+.aside_content div p {
+    width: 216px;
+    width: 15vw;
+    color: #1d1d1f;
+    font-size: 17px;
+    font-size: 2.21vh;
+    font-weight: 600;
+    line-height: 25px;
+    line-height: 3.255vh;
+    letter-spacing: -0.374px;
+}
+.aside_content div p:nth-last-child(2),
+.aside_content div p:last-child {
+    font-size: 14px;
+    font-size: 1.82vh;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-top: 1.562vh;
+    line-height: 20px;
+    line-height: 3.255vh;
+}
+.aside_content div p:last-child {
+    color: #06c;
+    margin-top: 12px;
+    margin-top: 1.5625vh;
+}
+.aside_content div span:after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 13px;
+    font-size: 1.692vh;
+    color: #06c;
+    padding-left: 5px;
+    padding-left: 0.35vw;
+    display: inline-block;
+}

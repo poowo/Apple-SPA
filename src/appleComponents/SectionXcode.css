@@ -1,0 +1,23 @@
+/* Xcode */
+.xcode {
+    width: 100%;
+    height: 90.1vh;
+    background: linear-gradient(#f2f2f2,#d5e4f3);
+    padding-top: 11.458vh;
+    text-align: center;
+}
+.xcode li div {
+    width: 47.03vw;
+    height: 52.213vh;
+    margin: 0 auto;
+}
+.xcode li div>img {
+    width: 100%;
+    height: auto;
+}
+.xcode h4 {
+    font-size: 7.29vh;
+    color: #1d1d1d;
+    font-weight: 600;
+    margin-bottom: 9.375vh;
+}

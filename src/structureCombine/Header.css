@@ -1,0 +1,40 @@
+/* 헤더영역 */
+#header {
+    background-color: rgba(240,240,240,0.8);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* 상단 GNB 메뉴 */
+#header nav {
+    max-width: 980px;
+    /* max-width: (980/1425)*100; */
+    max-width: 68.77192982456141vw;
+    margin: 0 auto;
+}
+#header .gnb {
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .gnb li:hover {
+    color: #666;
+}
+/* 이미지 */
+#header .gnb .svg,
+#header .gnb .search {
+    width: 17px;
+    width: 1.19vw;
+}
+/* 로고 */
+header .gnb strong {
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+header .gnb img {
+    margin-top: 0;
+    margin-right: 4px;
+}
